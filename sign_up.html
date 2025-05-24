@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Регистрация</title>
+</head>
+<body>
+  <h1>Регистрация</h1>
+  <a href="index.html">На главную</a>
+
+  <form action="/register" method="post">
+    <label for="nickname">Никнейм:</label><br>
+    <input type="text" id="nickname" name="nickname" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="password">Пароль:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <label for="description">Описание:</label><br>
+    <textarea id="description" name="description"></textarea><br><br>
+
+    <label for="option">Выберите вариант:</label><br>
+    <select id="option" name="option">
+      <option value="option1">Вариант 1</option>
+      <option value="option2">Вариант 2</option>
+      <option value="option3">Вариант 3</option>
+    </select><br><br>
+
+    <button type="submit">Зарегистрироваться</button>
+  </form>
+</body>
+</html>
